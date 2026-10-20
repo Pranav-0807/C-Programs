@@ -54,9 +54,9 @@ public:
 
 int main()
 {
-  Circle c(5);
-  Rectangle r(4, 6);
-  Triangle t(10, 8);
+  Circle c(3);
+  Rectangle r(4, 5);
+  Triangle t(5, 8);
   Shape *ptr;
   ptr = &c;
   cout << "Area of Circle: " << ptr->area() << endl;
